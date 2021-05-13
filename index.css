@@ -130,6 +130,7 @@ h1,h2,h3,h4,h5,h6{
   background-color: #10346b;
   margin-top: 0;
   color: #ccc;
+  text-align: center;
 }
 .footercontainer.maxwidth{
   margin-top: 0;
@@ -137,19 +138,19 @@ h1,h2,h3,h4,h5,h6{
 }
 .footercontainer h1{
   color: white;
+  padding-top: 100px;
   font-weight: bolder;
   font-size: 4.5em;
   text-align: center;
 }
 .footercontainer h3{
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-size: 2em;
   text-align: center;
 }
 .footercontainer .Whatsapp{
   font-size: 80px;
-  margin-left: 320px;
   padding: 10px 150px;
   border-radius: 20px;
   background-color: green;
@@ -163,8 +164,8 @@ h1,h2,h3,h4,h5,h6{
   color: white;
 }
 .footercontainer .icon{
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
   border-radius: 100%;
   font-size: 60px;
 }
