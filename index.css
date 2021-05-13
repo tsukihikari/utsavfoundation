@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6{
   margin-bottom: 50px;
 }
 .homecontent span{
-  font-weight: 900;
+  font-weight: bolder;
   color: crimson;
 }
 .carousel-inner{
@@ -107,6 +107,8 @@ h1,h2,h3,h4,h5,h6{
 .paymentcontainer .row{
   margin-top: 100px;
   margin-bottom: 50px;
+  margin-left: 0;
+  margin-right: 0;
   padding: 0 150px
 }
 .paymentcontainer img{
