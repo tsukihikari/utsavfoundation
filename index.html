@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MealDonation</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class=" containerhome ">
+      <div class="Home">
+        <h1 class="maxwidth"><strong>Utsavfoundation</strong></h1>
+      </div>
+      <div class="homecontent">
+        <h3 class="maxwidth">DONATE A ONE MEAL FOR SINGLE NEEDY HUMAN.</h3>
+        <h3 class="maxwidth"><span>HUMANITY</span> is the art of helping people.</h3>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="d1.jpeg" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="d2.jpg" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="d3.jpeg" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="d4.jpeg" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="vid-carousel">
+          <video width="1024" height="500" controls autoplay muted>
+             <source src="donation.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    <div class="aboutuscontainer ">
+        <div class="title">
+          <h1><u>About Us</u></h1>
+        </div>
+        <div class="provide maxwidth">
+          <h3>-WE PROVIDE-</h3>
+          <ul>
+            <li>"MEAL TO POOR PEOPLE."</li>
+            <li>"GROCERY & DAILY ESSENTIALS ITEMS TO THEM."</li>
+            <li>"SHELTER TO THE ANIMALS WHO ARE INJURED AND ARE HARMED BY THE ACCUSERS."</li>
+            <li>"FODDER TO THE BLIND COWS TWICE IN A WEEK."</li>
+          </ul>
+          <h3>-OUR AIMS-</h3>
+          <ul>
+            <li>OUR AIM IS TO FULFILL EVERY STOMACH THAT CRIES OF HUNGER AND TO STOP THOSE EYES SHEDDING TEARS.</li>
+            <li>WE PUT OUR BEST EFFORTS TO BRING CHANGE IN THE SOCIETY</li>
+            <li>YOUR SINGLE SMALL CONTRIBUTION CAN BRING SMILE ON THE FACE OF NEEDY</li>
+          </ul>
+          <a href="#contact"> <button type="button" class="btn btn-lg btn-outline-danger" >CONTACT US</button><br> </a>
+          <p>~There is no exercise better for the heart than reaching down and lifting people up~<br>
+          ~The best way to find yourself is to lose yourself in service of others~<br>
+          ~We make a living by what we get, we make a life by what we give~<br>
+          ~It will take nothing away from you if you treat animals same as person~<br>
+          ~Out of your 4 meals , One time for them too, Whose day passed without eating.~<br>
+          ~At night, Their eyes get something to eat, They have longed for this path...~<br>
+          <span>"So please contribute 1 meal atleast so that, Those eyes does not fill with tears in the pain of hunger"</span>
+          </p>
+        </div>
+    </div>
+    <div class="paymentcontainer ">
+      <h1><u>Donate Us</u></h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 maxwidth">
+        <div class="col">
+          <div class="card h-100">
+            <img src="ftc.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Meal for Cows</h5>
+              <p class="card-text">Please select how many meals you want to help with.</p>
+              <input list="meals" name="meals" id="cowmeals" class="browser">
+              <datalist id="meals">
+                <option value="1"></option><option value="2"></option><option value="3"></option><option value="4"></option><option value="5"></option><option value="6"></option><option value="7"></option><option value="8"></option><option value="9"></option><option value="10"></option><option value="11"></option><option value="12"></option><option value="13"></option><option value="14"></option><option value="15"></option><option value="16"></option><option value="17"></option><option value="18"></option><option value="19"></option><option value="20"></option><option value="21"></option><option value="22"></option><option value="23"></option><option value="24"></option><option value="25"></option><option value="26"></option><option value="27"></option><option value="28"></option><option value="29"></option><option value="30"></option><option value="31"></option><option value="32"></option><option value="33"></option><option value="34"></option><option value="35"></option><option value="36"></option><option value="37"></option><option value="38"></option><option value="39"></option><option value="40"></option><option value="41"></option><option value="42"></option><option value="43"></option><option value="44"></option><option value="45"></option><option value="46"></option><option value="47"></option><option value="48"></option><option value="49"></option><option value="50"></option><option value="51"></option><option value="52"></option><option value="53"></option><option value="54"></option><option value="55"></option><option value="56"></option><option value="57"></option><option value="58"></option><option value="59"></option><option value="60"></option><option value="61"></option><option value="62"></option><option value="63"></option><option value="64"></option><option value="65"></option><option value="66"></option><option value="67"></option><option value="68"></option><option value="69"></option><option value="70"></option><option value="71"></option><option value="72"></option><option value="73"></option><option value="74"></option><option value="75"></option><option value="76"></option><option value="77"></option><option value="78"></option><option value="79"></option><option value="80"></option><option value="81"></option><option value="82"></option><option value="83"></option><option value="84"></option><option value="85"></option><option value="86"></option><option value="87"></option><option value="88"></option><option value="89"></option><option value="90"></option><option value="91"></option><option value="92"></option><option value="93"></option><option value="94"></option><option value="95"></option><option value="96"></option><option value="97"></option><option value="98"></option><option value="99"></option><option value="100"></option>
+              </datalist><br>
+              <button type="button" class="btn btn-primary" id="rzp-button1">Donate</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="ftd.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Meal for Dogs</h5>
+              <p class="card-text">Please select how many meals you want to help with.</p>
+              <input list="meals" name="meals" id="dogmeals" class="browser">
+              <datalist id="meals">
+                <option value="1"></option><option value="2"></option><option value="3"></option><option value="4"></option><option value="5"></option><option value="6"></option><option value="7"></option><option value="8"></option><option value="9"></option><option value="10"></option><option value="11"></option><option value="12"></option><option value="13"></option><option value="14"></option><option value="15"></option><option value="16"></option><option value="17"></option><option value="18"></option><option value="19"></option><option value="20"></option><option value="21"></option><option value="22"></option><option value="23"></option><option value="24"></option><option value="25"></option><option value="26"></option><option value="27"></option><option value="28"></option><option value="29"></option><option value="30"></option><option value="31"></option><option value="32"></option><option value="33"></option><option value="34"></option><option value="35"></option><option value="36"></option><option value="37"></option><option value="38"></option><option value="39"></option><option value="40"></option><option value="41"></option><option value="42"></option><option value="43"></option><option value="44"></option><option value="45"></option><option value="46"></option><option value="47"></option><option value="48"></option><option value="49"></option><option value="50"></option><option value="51"></option><option value="52"></option><option value="53"></option><option value="54"></option><option value="55"></option><option value="56"></option><option value="57"></option><option value="58"></option><option value="59"></option><option value="60"></option><option value="61"></option><option value="62"></option><option value="63"></option><option value="64"></option><option value="65"></option><option value="66"></option><option value="67"></option><option value="68"></option><option value="69"></option><option value="70"></option><option value="71"></option><option value="72"></option><option value="73"></option><option value="74"></option><option value="75"></option><option value="76"></option><option value="77"></option><option value="78"></option><option value="79"></option><option value="80"></option><option value="81"></option><option value="82"></option><option value="83"></option><option value="84"></option><option value="85"></option><option value="86"></option><option value="87"></option><option value="88"></option><option value="89"></option><option value="90"></option><option value="91"></option><option value="92"></option><option value="93"></option><option value="94"></option><option value="95"></option><option value="96"></option><option value="97"></option><option value="98"></option><option value="99"></option><option value="100"></option>
+              </datalist><br>
+              <button type="button" class="btn btn-primary" id="rzp1-button2">Donate</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="ftp.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Meal for poor</h5>
+                <p class="card-text">Please select how many meals you want to help with.</p>
+                <input list="meals" name="meals" id="poormeals" class="browser">
+                <datalist id="meals">
+                  <option value="1"></option><option value="2"></option><option value="3"></option><option value="4"></option><option value="5"></option><option value="6"></option><option value="7"></option><option value="8"></option><option value="9"></option><option value="10"></option><option value="11"></option><option value="12"></option><option value="13"></option><option value="14"></option><option value="15"></option><option value="16"></option><option value="17"></option><option value="18"></option><option value="19"></option><option value="20"></option><option value="21"></option><option value="22"></option><option value="23"></option><option value="24"></option><option value="25"></option><option value="26"></option><option value="27"></option><option value="28"></option><option value="29"></option><option value="30"></option><option value="31"></option><option value="32"></option><option value="33"></option><option value="34"></option><option value="35"></option><option value="36"></option><option value="37"></option><option value="38"></option><option value="39"></option><option value="40"></option><option value="41"></option><option value="42"></option><option value="43"></option><option value="44"></option><option value="45"></option><option value="46"></option><option value="47"></option><option value="48"></option><option value="49"></option><option value="50"></option><option value="51"></option><option value="52"></option><option value="53"></option><option value="54"></option><option value="55"></option><option value="56"></option><option value="57"></option><option value="58"></option><option value="59"></option><option value="60"></option><option value="61"></option><option value="62"></option><option value="63"></option><option value="64"></option><option value="65"></option><option value="66"></option><option value="67"></option><option value="68"></option><option value="69"></option><option value="70"></option><option value="71"></option><option value="72"></option><option value="73"></option><option value="74"></option><option value="75"></option><option value="76"></option><option value="77"></option><option value="78"></option><option value="79"></option><option value="80"></option><option value="81"></option><option value="82"></option><option value="83"></option><option value="84"></option><option value="85"></option><option value="86"></option><option value="87"></option><option value="88"></option><option value="89"></option><option value="90"></option><option value="91"></option><option value="92"></option><option value="93"></option><option value="94"></option><option value="95"></option><option value="96"></option><option value="97"></option><option value="98"></option><option value="99"></option><option value="100"></option>
+                </datalist><br>
+              <button type="button" class="btn btn-primary" id="rzp1-button3">Donate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footercontainer" id="contact">
+      <h1><u>Contact</u></h1>
+      <h3>Always there to help you reach us through the following</h3>
+      <a href="https://wa.me/+919022056344"> <button type="button" class="btn btn-primary Whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp Us</button> </a>
+      <h3>Phone: <span>+91-XXXXXXXXXX</span></h3>
+      <h3>Email: <span>contact@gmail.com</span></h3>
+      <i class="fab fa-instagram icon"><a href="#"></a> </i>
+      <i class="fab fa-facebook icon"><a href="#"></a> </i>
+      <i class="fab fa-youtube icon"> <a href="#"></a> </i>
+      <i class="fab fa-twitter icon"> <a href="#"></a> </i>
+    </div>
+    <!-- <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        document.getElementById("rzp-button1").onclick = function(e) {
+            var url = "/api/payment/order"
+            var params = {
+                amount: document.getElementById("cowmeals").value*100*35,
+                currency: "INR",
+                receipt: "wthcoding001",
+                payment_capture: '1'
+            };
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.onreadystatechange = function(res) {
+                if (xmlHttp.readyState === 4) {
+                    res = JSON.parse(xmlHttp.responseText);
+                    order_id_data = res.sub.id
+                }
+            }
+            xmlHttp.open("POST", url, true);
+            xmlHttp.setRequestHeader("Content-type", "application/json");
+            xmlHttp.send(JSON.stringify(params));
+                    var options = {
+                        "key": "<%= key %>",
+                        "currency": "INR",
+                        "name": "WTH Coding",
+                        "description": "WtH Coding Transaction",
+                        "order_id": order_id_data,
+                        "handler": function(response) {
+                            document.getElementById('order-pay-id').value = response.razorpay_payment_id;
+                            document.getElementById('order-id').value = response.razorpay_order_id;
+                            document.getElementById('order-sig').value = response.razorpay_signature;
+                        },
+                        "theme": {
+                            "color": "#0EB9F2"
+                        }
+                    };
+                    var rzp1 = new Razorpay(options);
+                    rzp1.open();
+                    e.preventDefault();
+        }
+    </script> -->
+  </body>
+</html>

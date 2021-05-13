@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat',sans-serif;
+}
+.maxwidth{
+  margin: 0 150px;
+}
+.Home{
+  background-color: #10346b;
+  padding: 25px 0;
+}
+.Home h1{
+  font-family: 'ubuntu';
+  font-size: 4em;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 0;
+}
+.homecontent{
+  text-align: center;
+  background-color: white;
+}
+.homecontent h3{
+  font-size: 2.5em;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.homecontent span{
+  font-weight: 900;
+  color: crimson;
+}
+.carousel-inner{
+  background-color: lightgrey;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.carousel-item img{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vid-carousel{
+  background-color: lightgrey;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.aboutuscontainer{
+  background-color: #10346b;
+  color: white;
+  padding-bottom: 100px;
+}
+.aboutuscontainer .title{
+  font-weight: bolder;
+  text-align: center;
+}
+.aboutuscontainer h1{
+  font-weight: bolder;
+  font-size: 5em;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.aboutuscontainer h3{
+  font-size: 2em;
+  margin-top: 60px;
+  margin-left: 25px;
+}
+.provide ul{
+  margin-left: 25px;
+  font-size: 1.5em;
+}
+.provide .btn{
+  font-size: 3em;
+  margin-top: 50px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+.provide p{
+  font-size: 1.5em;
+  font-family: 'ubuntu',sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.provide p span{
+  font-weight: bolder;
+  color: crimson;
+}
+.paymentcontainer{
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.paymentcontainer h1{
+  padding-top: 25px;
+  font-weight: bolder;
+  font-size: 4.5em;
+  text-align: center;
+}
+.paymentcontainer .row{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 0 150px
+}
+.paymentcontainer img{
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.paymentcontainer .card{
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-width: 3.5px;
+  background-color: #10346b;
+  text-align: center;
+  color: white;
+}
+.paymentcontainer .btn{
+  margin-top: 10px;
+  padding: 0 20px;
+  font-size: 18px;
+}
+.footercontainer{
+  background-color: #10346b;
+  margin-top: 0;
+  color: #ccc;
+}
+.footercontainer.maxwidth{
+  margin-top: 0;
+  text-align: center;
+}
+.footercontainer h1{
+  color: white;
+  font-weight: bolder;
+  font-size: 4.5em;
+  text-align: center;
+}
+.footercontainer h3{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+.footercontainer .Whatsapp{
+  font-size: 80px;
+  margin-left: 320px;
+  padding: 10px 150px;
+  border-radius: 20px;
+  background-color: green;
+  border-color: green;
+}
+.footercontainer .whatsapp a{
+  color: white;
+}
+.footercontainer .icon:hover{
+  cursor: pointer;
+  color: white;
+}
+.footercontainer .icon{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 100%;
+  font-size: 60px;
+}
+.stickybtn{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
