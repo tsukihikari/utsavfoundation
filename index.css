@@ -167,7 +167,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* /--------------------------------------------------------------------------------------------------/
 media query section */
-@media screen and (min-width: 320px) and (max-width: 768px){
+@media screen and (min-width: 300px) and (max-width: 768px){
 
 .maxwidth{
   margin: 0 30px;
