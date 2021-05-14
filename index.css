@@ -175,7 +175,7 @@ media query section */
   .Home h1{
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 2em;
   }
     .homecontent{
     padding-top: 50px;
@@ -217,7 +217,7 @@ media query section */
     padding-top: 50px;
   }
   .aboutuscontainer h3{
-    font-size: 2em;
+    font-size: 2.5em;
     margin-top: 60px;
     margin-left: 25px;
   }
@@ -225,13 +225,13 @@ media query section */
     margin: 0 5px;
   }
   .provide ul{
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .provide .btn{
     margin-left: 30px;
   }
   .provide p{
-    font-size: 1em;
+    font-size: 1.3em;
   }
   .provide p span{
     font-weight: bolder;
@@ -239,6 +239,47 @@ media query section */
   }
   .paymentcontainer{
     padding-top: 50px;
+  }
+  .row.maxwidth{
+    margin-left: 0;
+  }
+  .paymentcontainer .row{
+    padding: 0 0;
+    margin-top: 50px;
+  }
+  .paymentcontainer .card{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .paymentcontainer .col{
+    padding-right: 0;
+  }
+  .footercontainer h1{
+    padding-top: 100px;
+  }
+  .footercontainer h3{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 1em;
+  }
+  .footercontainer .Whatsapp{
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: green;
+    border-color: green;
+  }
+  .footercontainer .whatsapp a{
+    color: white;
+  }
+  .footercontainer .icon:hover{
+    cursor: pointer;
+    color: white;
+  }
+  .footercontainer .icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 50px;
   }
 }
 @media screen and (max-width: 768px;) {
