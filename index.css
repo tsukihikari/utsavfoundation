@@ -105,14 +105,9 @@ h1,h2,h3,h4,h5,h6{
   text-align: center;
 }
 .paymentcontainer .row{
-  margin-top: 100px;
-  margin-bottom: 50px;
   margin-left: 0;
   margin-right: 0;
-  padding: 0 150px
-}
-.paymentcontainer .donate-col{
-  padding-bottom: 40px;
+  padding: 150px 150px
 }
 .paymentcontainer .card{
   margin-right: 20px;
@@ -120,11 +115,6 @@ h1,h2,h3,h4,h5,h6{
   background-color: #10346b;
   text-align: center;
   color: white;
-}
-.paymentcontainer .btn{
-  margin-top: 10px;
-  padding: 0 20px;
-  font-size: 18px;
 }
 .footercontainer{
   background-color: #10346b;
