@@ -111,13 +111,11 @@ h1,h2,h3,h4,h5,h6{
   margin-right: 0;
   padding: 0 150px
 }
-.paymentcontainer img{
-  border-top-right-radius: 40px;
-  border-top-left-radius: 40px;
+.paymentcontainer .donate-col{
+  padding-bottom: 40px;
 }
 .paymentcontainer .card{
-  border-top-right-radius: 40px;
-  border-top-left-radius: 40px;
+  margin-right: 20px;
   border-width: 3.5px;
   background-color: #10346b;
   text-align: center;
@@ -175,4 +173,84 @@ h1,h2,h3,h4,h5,h6{
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+}
+
+/* /--------------------------------------------------------------------------------------------------/
+media query section */
+@media screen and (min-width: 320px) and (max-width: 425px){
+
+.maxwidth{
+  margin: 0 30px;
+}
+  .Home h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+  }
+    .homecontent{
+    padding-top: 50px;
+    font-weight: bolder;
+    text-align: left;
+  }
+  .homecontent .qout1{
+    margin-bottom: 100px;
+  }
+  .homecontent h3{
+    font-size: 1em;
+  }
+  .provide .btn{
+    margin-left: 0;
+  }
+  .carousel-inner{
+    padding-top: 40px;
+  }
+  .carousel-item img{
+    width: 65%;
+  }
+  .vid-carousel{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  video{
+    height: 300px;
+  }
+  .title{
+    font-size: 10px;;
+  }
+  .provide{
+    font-size: 7px;
+  }
+  .aboutuscontainer{
+    padding-bottom: 100px;
+  }
+  .aboutuscontainer h1{
+    padding-top: 50px;
+  }
+  .aboutuscontainer h3{
+    font-size: 2em;
+    margin-top: 60px;
+    margin-left: 25px;
+  }
+  .provide.maxwidth{
+    margin: 0 5px;
+  }
+  .provide ul{
+    font-size: 1em;
+  }
+  .provide .btn{
+    margin-left: 30px;
+  }
+  .provide p{
+    font-size: 1em;
+  }
+  .provide p span{
+    font-weight: bolder;
+    color: crimson;
+  }
+  .paymentcontainer{
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 768px;) {
+
 }
